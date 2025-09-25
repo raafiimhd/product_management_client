@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Shared Left Section */
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+
+.left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 1rem;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Shared Right Section */
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.right h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Form */
+.form input {
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.signUpBtn,
+.signInSubmit {
+  width: 100%;
+  padding: 15px;
+  background-color: #f4a300;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signUpBtn:hover,
+.signInSubmit:hover {
+  background-color: #d38a00;
+}
+
+/* Forgot Password */
+.forgotBtn {
+  background: none;
+  border: none;
+  color: #f4a300;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.forgotBtn:hover {
+  color: #d38a00;
+}
+
+/* --- SignIn Page --- */
+/* --- SignIn Page --- */
+.signinLeft {
+  flex: 2; 
+  background-color: #fff; /* full white */
+  color: #000;
+}
+
+.signinRight {   
+  flex:1;         
+  background-color: #004b70; /* dark blue */
+  color: #fff;
+}
+
+.signinRight h1 {
+  color: #fff;
+}
+
+
+.signinSwitchBtn {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signinSwitchBtn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --- SignUp Page --- */
+.signupLeft {
+  flex:1;
+  background-color: #004b70;
+  color: #fff;
+}
+
+.signupRight {
+  flex:2;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.signupRight h1 {
+  color: #f4a300;
+}
+
+.signupSwitchBtn {
+  background: none;
+  border: 2px solid #f4a300;
+  color: #f4a300;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signupSwitchBtn:hover {
+  background-color: rgba(244, 163, 0, 0.2);
+}
