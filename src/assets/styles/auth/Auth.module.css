@@ -74,16 +74,21 @@
 .forgotBtn {
   background: none;
   border: none;
-  color: #f4a300;
-  margin-top: 15px;
+  color: #000;              /* black text */
+  margin-top: 12px;
   cursor: pointer;
   font-size: 0.9rem;
-  text-decoration: underline;
+  font-weight: bold;        /* bold */
+  text-decoration: underline; 
+  display: block;           /* makes it act like a block element */
+  text-align: center;       /* center horizontally */
+  width: 100%;              /* ensure it spans full width */
 }
 
 .forgotBtn:hover {
-  color: #d38a00;
+  color: #333;              /* darker gray on hover */
 }
+
 
 /* --- SignIn Page --- */
 /* --- SignIn Page --- */
@@ -115,7 +120,7 @@
 }
 
 .signinSwitchBtn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #fff;
 }
 
 /* --- SignUp Page --- */
@@ -138,8 +143,8 @@
 
 .signupSwitchBtn {
   background: none;
-  border: 2px solid #f4a300;
-  color: #f4a300;
+  border: 2px solid #fff;
+  color: #fff;
   padding: 10px 30px;
   border-radius: 30px;
   cursor: pointer;
